@@ -1,6 +1,7 @@
 # enimerosis_bot3
 Discord Bot
 
-Toy discord bot. It scrappes a newsite (gazzetta.gr) for the latest front cover of a newspaper (Ωρα των σπορ). 
-It posts said cover in a discord server.
-Maybe I'll add more stuff in the future.
+Toy discord bot. It scrappes the web for newspaper frontpages
+It posts said frontpages in a discord server.
+
+It taunts some of my friends too.
