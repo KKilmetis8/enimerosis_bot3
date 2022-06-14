@@ -239,6 +239,14 @@ docs = ["olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-issues (>=3.0.
 tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
 
 [[package]]
+name = "random2"
+version = "1.0.1"
+description = "Python 3 compatible Pytohn 2 `random` Module."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "requests"
 version = "2.28.0"
 description = "Python HTTP for Humans."
@@ -323,7 +331,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "e93906c8b40719a95ac35f5b922c20ed0dc2de15c02f0757fe29dc9fc3ed94f1"
+content-hash = "1ae3b6f91b4ecc9ef469ae7d7d25e5417b015920d5e72dd78200942acddf3833"
 
 [metadata.files]
 aiohttp = [
@@ -591,6 +599,9 @@ pillow = [
     {file = "Pillow-9.1.1-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:937a54e5694684f74dcbf6e24cc453bfc5b33940216ddd8f4cd8f0f79167f765"},
     {file = "Pillow-9.1.1-pp38-pypy38_pp73-win_amd64.whl", hash = "sha256:baf3be0b9446a4083cc0c5bb9f9c964034be5374b5bc09757be89f5d2fa247b8"},
     {file = "Pillow-9.1.1.tar.gz", hash = "sha256:7502539939b53d7565f3d11d87c78e7ec900d3c72945d4ee0e2f250d598309a0"},
+]
+random2 = [
+    {file = "random2-1.0.1.zip", hash = "sha256:34ad30aac341039872401595df9ab2c9dc36d0b7c077db1cea9ade430ed1c007"},
 ]
 requests = [
     {file = "requests-2.28.0-py3-none-any.whl", hash = "sha256:bc7861137fbce630f17b03d3ad02ad0bf978c844f3536d0edda6499dafce2b6f"},

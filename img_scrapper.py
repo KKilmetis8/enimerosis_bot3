@@ -17,3 +17,17 @@ def eikona_ora(url):
             url_eikonas = item['src']
             url_eikonas = 'https://www.gazzetta.gr' + url_eikonas
     return url_eikonas
+
+def eikona_mak(url):
+    req = Request(url, headers={'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0"})
+    webpage = urlopen(req).read()
+    
+    page_soup = soup(webpage, "html.parser")
+    images = page_soup.find_all('img')
+      
+    for item in images:
+        if 'full' in item['src']:
+            print(item['src'])
+            url_eikonas = item['src']
+            url_eikonas = 'https://www.naftemporiki.gr' + url_eikonas
+    return url_eikonas
